@@ -50,5 +50,5 @@ def uploaded_file(filename):
 
 if __name__ == '__main__':
     port = 3000
-    print(f'Server running at http://localhost:{port}/')
+    print(f'Server running at port : {port}/')
     app.run(debug=True, port=port)
